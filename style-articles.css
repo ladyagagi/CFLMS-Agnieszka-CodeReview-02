@@ -1,0 +1,26 @@
+.pic-grid-2 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+	width: 100%;
+	height: auto;
+	
+}
+
+.pic-2 {
+	width: 250px;
+	height: 170px;
+	background-repeat: no-repeat;
+	
+	background-size: 250px;
+	display: flex;
+	align-items: flex-end; /*damit der p-Text nach unten geht*/
+}
+
+.pic-2 p {
+	background-color: #171717;
+	color: #fff;
+	font-size: 12px;
+	align-self: flex-end;
+	padding: 10px 5px;
+}
